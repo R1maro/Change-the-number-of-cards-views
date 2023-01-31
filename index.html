@@ -70,7 +70,107 @@
 <!--body cards and change view key and filter modal start-->
 
 <div class="container-fluid p-5">
-    
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        فیلترها
+    </button>
+
+    <!--filter Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">فیلتر بر اساس</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-3">
+                            <h6>
+                                رنگ:
+                            </h6>
+                            <form action="" class="form-control form-check">
+                                <input type="checkbox"> سفید
+                                <input type="checkbox">زرد
+                            </form>
+                        </div>
+                        <div class="col-2">
+                            <h6>
+                                عیار:
+                            </h6>
+                            <form action="">
+                                <input type="number" value="24" min="16" max="24" class="form-control">
+                            </form>
+                        </div>
+
+                        <div class="col-3">
+                            <h6>
+                                قیمت:
+                            </h6>
+                            <form action="">
+                                <label>
+                                    <Select class="form-select">
+                                        <option>
+                                            10.000.000 تا 20.000.000
+                                        </option>
+                                        <option>
+                                            20.000.000 تا 30.000.000
+                                        </option>
+                                        <option>
+                                            30.000.000 تا 40.000.000
+                                        </option>
+                                        <option>
+                                            40.000.000 تا 50.000.000
+                                        </option>
+                                    </Select>
+                                </label>
+                            </form>
+                        </div>
+
+                        <div class="col-3">
+                            <h6>
+                                نوع:
+                            </h6>
+                            <form action="">
+                                <label>
+                                    <select class="form-select">
+                                        <option>
+                                            دستبند
+                                        </option>
+
+                                        <option>
+                                            پابند
+                                        </option>
+
+                                        <option>
+                                            گردن بند
+                                        </option>
+
+                                        <option>
+                                            زنجیر
+                                        </option>
+
+                                        <option>
+                                            گوشواره
+                                        </option>
+
+                                        <option>
+                                            پیرسینگ
+                                        </option>
+                                    </select>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">بستن</button>
+                    <button type="button" class="btn btn-primary">ذخیره فیلتر</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 <!--    change view key -->
 
     <div class="float-end change-view">
