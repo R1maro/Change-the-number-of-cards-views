@@ -1,0 +1,27 @@
+body{
+  overflow-x: hidden;
+  font-family: "A Iranian Sans", serif;
+  transition: 666ms;
+}
+
+//body cards style
+.under-img{
+  height: 550px;
+}
+.custom-img{
+  height: 500px;
+  width: 800px;
+}
+
+//show btn style
+.two-view{
+  cursor: pointer;
+}
+.four-view{
+  cursor: pointer;
+}
+@media screen and (max-width: 900px){
+  .change-view{
+    display: none;
+  }
+}

@@ -1,15 +1,104 @@
 <!doctype html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="js/js.js"></script>
     <title>Document</title>
 </head>
 <body>
+
+<!--header start-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">لوگو</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">خانه</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">لینک</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        منو
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">کار 1</a></li>
+                        <li><a class="dropdown-item" href="#">کار 2</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">توضیح</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">غیرفعال</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">جستجو</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<!--header end-->
+
+
+<!--under header img-->
+<div class="container-fluid p-4 mt-4">
+    <img src="img/1.jpg" alt="" class="img-fluid img-thumbnail w-100 under-img">
+</div>
+<!--end-->
+
+<hr>
+
+<!--body cards and change view key and filter modal start-->
+
+<div class="container-fluid p-5">
+    
+<!--    change view key -->
+
+    <div class="float-end change-view">
+        <strong>نمایش</strong>
+        <span class="two-view">2</span>
+        |
+        <span class="four-view">4</span>
+    </div>
+</div>
+
+
+<div class="row container-fluid mt-5">
+    <div class="col-lg-3 col-md-4 col-sm-12 mt-5 dlt-img">
+        <img src="img/3.jpeg" alt="" class="img-fluid custom-img">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-12 mt-5 stable-img">
+        <img src="img/3.jpeg" alt="" class="img-fluid custom-img">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-12 mt-5 stable-img">
+        <img src="img/4.jpg" alt="" class="img-fluid custom-img">
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-12 mt-5 dlt-img">
+        <img src="img/4.jpg" alt="" class="img-fluid custom-img">
+    </div>
+</div>
+
+<!--body cards and change view key and filter modal end-->
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

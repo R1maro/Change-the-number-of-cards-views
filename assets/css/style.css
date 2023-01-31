@@ -1,0 +1,30 @@
+body {
+  overflow-x: hidden;
+  font-family: "A Iranian Sans", serif;
+  transition: 666ms;
+}
+
+.under-img {
+  height: 550px;
+}
+
+.custom-img {
+  height: 500px;
+  width: 800px;
+}
+
+.two-view {
+  cursor: pointer;
+}
+
+.four-view {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .change-view {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
