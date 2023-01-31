@@ -26,5 +26,31 @@ body {
     display: none;
   }
 }
+.made-with-love {
+  margin-top: 40px;
+  padding: 10px;
+  clear: left;
+  text-align: center;
+  font-size: 10px;
+  font-family: arial;
+  color: black;
+}
+
+.made-with-love i {
+  font-style: normal;
+  color: #F50057;
+  font-size: 14px;
+  position: relative;
+  top: 2px;
+}
+
+.made-with-love a {
+  color: black;
+  text-decoration: none;
+}
+
+.made-with-love a:hover {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */
